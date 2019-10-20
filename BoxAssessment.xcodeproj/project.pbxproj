@@ -7,12 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		550F2FC5235A21E000B85746 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 554B45FE235939BC00338735 /* Alamofire.framework */; };
+		550F2FC6235A21E000B85746 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 554B45FE235939BC00338735 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		550F2FC8235A21E300B85746 /* BoxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 554B4600235939BF00338735 /* BoxSDK.framework */; };
+		550F2FC9235A21E300B85746 /* BoxSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 554B4600235939BF00338735 /* BoxSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5564AE8E235A8CCE00947A26 /* OAuth_Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5564AE8D235A8CCE00947A26 /* OAuth_Login.swift */; };
+		55B3EF43235B927700653A76 /* bofa_icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55B3EF42235B927700653A76 /* bofa_icon.jpg */; };
 		55CA6CCD2358C8E40017083B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CA6CCC2358C8E40017083B /* AppDelegate.swift */; };
-		55CA6CCF2358C8E40017083B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CA6CCE2358C8E40017083B /* ViewController.swift */; };
 		55CA6CD22358C8E40017083B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55CA6CD02358C8E40017083B /* Main.storyboard */; };
 		55CA6CD42358C8E50017083B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55CA6CD32358C8E50017083B /* Assets.xcassets */; };
 		55CA6CD72358C8E50017083B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55CA6CD52358C8E50017083B /* LaunchScreen.storyboard */; };
 		55CA6CE22358C8E50017083B /* BoxAssessmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CA6CE12358C8E50017083B /* BoxAssessmentTests.swift */; };
+		55CA6CED2358CBCD0017083B /* BofA_HomePage2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 55CA6CEC2358CBCD0017083B /* BofA_HomePage2.jpeg */; };
+		55CA6CEF2358CBD40017083B /* BofA_HomePage1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 55CA6CEE2358CBD40017083B /* BofA_HomePage1.jpeg */; };
+		55CA6CF32358D3270017083B /* bottom_screen.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 55CA6CF22358D3270017083B /* bottom_screen.jpeg */; };
+		55CA6CF72358F9EC0017083B /* Header.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 55CA6CF62358F9EC0017083B /* Header.jpeg */; };
+		55CA6CF92358FD8D0017083B /* Footer.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 55CA6CF82358FD8D0017083B /* Footer.jpeg */; };
+		55CA6CFB235901990017083B /* LoanApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CA6CFA235901990017083B /* LoanApplication.swift */; };
+		55CA6CFD2359095C0017083B /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = 55CA6CFC2359095C0017083B /* config.json */; };
+		55F2031C235BC80B000F3D13 /* AccountPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F2031B235BC80B000F3D13 /* AccountPage.swift */; };
+		FCBFF178592788B512B26993 /* Pods_BoxAssessmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 450B677D2A43C55FBD7DAC42 /* Pods_BoxAssessmentTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,10 +39,31 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		550F2FC7235A21E000B85746 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				550F2FC6235A21E000B85746 /* Alamofire.framework in Embed Frameworks */,
+				550F2FC9235A21E300B85746 /* BoxSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		279C63D86D29E5DDE4D40056 /* Pods-BoxAssessment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoxAssessment.release.xcconfig"; path = "Target Support Files/Pods-BoxAssessment/Pods-BoxAssessment.release.xcconfig"; sourceTree = "<group>"; };
+		28A6A68D09647C7783A15E81 /* Pods-BoxAssessment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoxAssessment.debug.xcconfig"; path = "Target Support Files/Pods-BoxAssessment/Pods-BoxAssessment.debug.xcconfig"; sourceTree = "<group>"; };
+		450B677D2A43C55FBD7DAC42 /* Pods_BoxAssessmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoxAssessmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		554B45FE235939BC00338735 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		554B4600235939BF00338735 /* BoxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BoxSDK.framework; path = Carthage/Build/iOS/BoxSDK.framework; sourceTree = "<group>"; };
+		5564AE8D235A8CCE00947A26 /* OAuth_Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuth_Login.swift; sourceTree = "<group>"; };
+		55B3EF42235B927700653A76 /* bofa_icon.jpg */ = {isa = PBXFileReference; explicitFileType = image.jpeg; name = bofa_icon.jpg; path = ../../bofa_icon.jpg; sourceTree = "<group>"; };
 		55CA6CC92358C8E40017083B /* BoxAssessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoxAssessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55CA6CCC2358C8E40017083B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		55CA6CCE2358C8E40017083B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		55CA6CD12358C8E40017083B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		55CA6CD32358C8E50017083B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55CA6CD62358C8E50017083B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +71,17 @@
 		55CA6CDD2358C8E50017083B /* BoxAssessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoxAssessmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55CA6CE12358C8E50017083B /* BoxAssessmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxAssessmentTests.swift; sourceTree = "<group>"; };
 		55CA6CE32358C8E50017083B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55CA6CEC2358CBCD0017083B /* BofA_HomePage2.jpeg */ = {isa = PBXFileReference; explicitFileType = image.jpeg; name = BofA_HomePage2.jpeg; path = ../../BofA_HomePage2.jpeg; sourceTree = "<group>"; };
+		55CA6CEE2358CBD40017083B /* BofA_HomePage1.jpeg */ = {isa = PBXFileReference; explicitFileType = image.jpeg; name = BofA_HomePage1.jpeg; path = ../../BofA_HomePage1.jpeg; sourceTree = "<group>"; };
+		55CA6CF22358D3270017083B /* bottom_screen.jpeg */ = {isa = PBXFileReference; explicitFileType = image.jpeg; name = bottom_screen.jpeg; path = ../../bottom_screen.jpeg; sourceTree = "<group>"; };
+		55CA6CF62358F9EC0017083B /* Header.jpeg */ = {isa = PBXFileReference; explicitFileType = image.jpeg; name = Header.jpeg; path = ../../Header.jpeg; sourceTree = "<group>"; };
+		55CA6CF82358FD8D0017083B /* Footer.jpeg */ = {isa = PBXFileReference; explicitFileType = image.jpeg; name = Footer.jpeg; path = ../../Footer.jpeg; sourceTree = "<group>"; };
+		55CA6CFA235901990017083B /* LoanApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanApplication.swift; sourceTree = "<group>"; };
+		55CA6CFC2359095C0017083B /* config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = config.json; path = ../../../Downloads/config.json; sourceTree = "<group>"; };
+		55F2031B235BC80B000F3D13 /* AccountPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountPage.swift; sourceTree = "<group>"; };
+		A20081FDA8699FEB47C7E5D5 /* Pods-BoxAssessmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoxAssessmentTests.debug.xcconfig"; path = "Target Support Files/Pods-BoxAssessmentTests/Pods-BoxAssessmentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A31F68C0EBAFC9C144848A95 /* Pods-BoxAssessmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoxAssessmentTests.release.xcconfig"; path = "Target Support Files/Pods-BoxAssessmentTests/Pods-BoxAssessmentTests.release.xcconfig"; sourceTree = "<group>"; };
+		FB223F0745CDD0994A3E4D09 /* Pods_BoxAssessment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoxAssessment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +89,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				550F2FC5235A21E000B85746 /* Alamofire.framework in Frameworks */,
+				550F2FC8235A21E300B85746 /* BoxSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +98,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCBFF178592788B512B26993 /* Pods_BoxAssessmentTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22EFB3B45E2249FACCC274C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				28A6A68D09647C7783A15E81 /* Pods-BoxAssessment.debug.xcconfig */,
+				279C63D86D29E5DDE4D40056 /* Pods-BoxAssessment.release.xcconfig */,
+				A20081FDA8699FEB47C7E5D5 /* Pods-BoxAssessmentTests.debug.xcconfig */,
+				A31F68C0EBAFC9C144848A95 /* Pods-BoxAssessmentTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		554B45F323592FF900338735 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				554B4600235939BF00338735 /* BoxSDK.framework */,
+				554B45FE235939BC00338735 /* Alamofire.framework */,
+				FB223F0745CDD0994A3E4D09 /* Pods_BoxAssessment.framework */,
+				450B677D2A43C55FBD7DAC42 /* Pods_BoxAssessmentTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		55CA6CC02358C8E40017083B = {
 			isa = PBXGroup;
 			children = (
 				55CA6CCB2358C8E40017083B /* BoxAssessment */,
 				55CA6CE02358C8E50017083B /* BoxAssessmentTests */,
 				55CA6CCA2358C8E40017083B /* Products */,
+				554B45F323592FF900338735 /* Frameworks */,
+				22EFB3B45E2249FACCC274C3 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,11 +151,20 @@
 			isa = PBXGroup;
 			children = (
 				55CA6CCC2358C8E40017083B /* AppDelegate.swift */,
-				55CA6CCE2358C8E40017083B /* ViewController.swift */,
+				5564AE8D235A8CCE00947A26 /* OAuth_Login.swift */,
+				55CA6CFA235901990017083B /* LoanApplication.swift */,
+				55F2031B235BC80B000F3D13 /* AccountPage.swift */,
 				55CA6CD02358C8E40017083B /* Main.storyboard */,
 				55CA6CD32358C8E50017083B /* Assets.xcassets */,
 				55CA6CD52358C8E50017083B /* LaunchScreen.storyboard */,
+				55B3EF42235B927700653A76 /* bofa_icon.jpg */,
+				55CA6CF62358F9EC0017083B /* Header.jpeg */,
+				55CA6CF82358FD8D0017083B /* Footer.jpeg */,
+				55CA6CF22358D3270017083B /* bottom_screen.jpeg */,
+				55CA6CEE2358CBD40017083B /* BofA_HomePage1.jpeg */,
+				55CA6CEC2358CBCD0017083B /* BofA_HomePage2.jpeg */,
 				55CA6CD82358C8E50017083B /* Info.plist */,
+				55CA6CFC2359095C0017083B /* config.json */,
 			);
 			path = BoxAssessment;
 			sourceTree = "<group>";
@@ -103,9 +185,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 55CA6CE62358C8E50017083B /* Build configuration list for PBXNativeTarget "BoxAssessment" */;
 			buildPhases = (
+				AB7DF472951C5D35C6BADF72 /* [CP] Check Pods Manifest.lock */,
 				55CA6CC52358C8E40017083B /* Sources */,
 				55CA6CC62358C8E40017083B /* Frameworks */,
 				55CA6CC72358C8E40017083B /* Resources */,
+				550F2FC7235A21E000B85746 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,6 +204,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 55CA6CE92358C8E50017083B /* Build configuration list for PBXNativeTarget "BoxAssessmentTests" */;
 			buildPhases = (
+				4084227FAC9C8BEA2AE4A17B /* [CP] Check Pods Manifest.lock */,
 				55CA6CD92358C8E50017083B /* Sources */,
 				55CA6CDA2358C8E50017083B /* Frameworks */,
 				55CA6CDB2358C8E50017083B /* Resources */,
@@ -146,6 +231,7 @@
 				TargetAttributes = {
 					55CA6CC82358C8E40017083B = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1120;
 					};
 					55CA6CDC2358C8E50017083B = {
 						CreatedOnToolsVersion = 10.0;
@@ -178,7 +264,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				55CA6CD72358C8E50017083B /* LaunchScreen.storyboard in Resources */,
+				55B3EF43235B927700653A76 /* bofa_icon.jpg in Resources */,
+				55CA6CF72358F9EC0017083B /* Header.jpeg in Resources */,
+				55CA6CEF2358CBD40017083B /* BofA_HomePage1.jpeg in Resources */,
 				55CA6CD42358C8E50017083B /* Assets.xcassets in Resources */,
+				55CA6CED2358CBCD0017083B /* BofA_HomePage2.jpeg in Resources */,
+				55CA6CFD2359095C0017083B /* config.json in Resources */,
+				55CA6CF32358D3270017083B /* bottom_screen.jpeg in Resources */,
+				55CA6CF92358FD8D0017083B /* Footer.jpeg in Resources */,
 				55CA6CD22358C8E40017083B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -192,12 +285,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4084227FAC9C8BEA2AE4A17B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BoxAssessmentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB7DF472951C5D35C6BADF72 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BoxAssessment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		55CA6CC52358C8E40017083B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55CA6CCF2358C8E40017083B /* ViewController.swift in Sources */,
+				5564AE8E235A8CCE00947A26 /* OAuth_Login.swift in Sources */,
+				55CA6CFB235901990017083B /* LoanApplication.swift in Sources */,
+				55F2031C235BC80B000F3D13 /* AccountPage.swift in Sources */,
 				55CA6CCD2358C8E40017083B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,10 +500,15 @@
 		};
 		55CA6CE72358C8E50017083B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28A6A68D09647C7783A15E81 /* Pods-BoxAssessment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YG6HYAFBHV;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = BoxAssessment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -369,17 +516,22 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sarahmowris.BoxAssessment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		55CA6CE82358C8E50017083B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 279C63D86D29E5DDE4D40056 /* Pods-BoxAssessment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YG6HYAFBHV;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = BoxAssessment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -387,13 +539,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sarahmowris.BoxAssessment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		55CA6CEA2358C8E50017083B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A20081FDA8699FEB47C7E5D5 /* Pods-BoxAssessmentTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -407,7 +560,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sarahmowris.BoxAssessmentTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BoxAssessment.app/BoxAssessment";
 			};
@@ -415,6 +568,7 @@
 		};
 		55CA6CEB2358C8E50017083B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A31F68C0EBAFC9C144848A95 /* Pods-BoxAssessmentTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -428,7 +582,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sarahmowris.BoxAssessmentTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BoxAssessment.app/BoxAssessment";
 			};
