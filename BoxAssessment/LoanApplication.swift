@@ -93,15 +93,15 @@ class LoanApplication : UIViewController {
 extension LoanApplication: UIDocumentPickerDelegate {
     
     //UIDocument Protocols
-    func documentMenu(_ documentMenu: UIDocumentPickerDelegate, didPickDocumentPicker documentPicker: UIDocumentPickerViewController) {
+    func document(_ document: UIDocumentPickerDelegate, didPickDocumentPicker documentPicker: UIDocumentPickerViewController) {
     }
     
     
     func DocumentPicker() {
-        let menu = UIDocumentPickerViewController(documentTypes: [String(kUTTypePDF)], in: .import)
-        menu.delegate = self
-        menu.modalPresentationStyle = .formSheet
-        present(menu, animated: true, completion: nil)
+        let file = UIDocumentPickerViewController(documentTypes: ["public.content"], in: .import)
+        file.delegate = self
+        file.modalPresentationStyle = .formSheet
+        present(file, animated: true, completion: nil)
     }
     
     func documentPickerWasCancelled(_ controller: UIDocumentPickerViewController) {
